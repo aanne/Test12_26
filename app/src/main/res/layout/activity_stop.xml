@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_above="@id/stop"
+    />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rec1"
+        android:id="@+id/stop"
+        android:text="@string/stop"
+        android:textColor="#FFFFFF"
+        android:onClick="Stop"/>
+
+</RelativeLayout>
